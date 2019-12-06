@@ -43,6 +43,7 @@ print("\033[1;31;40m___¶¶___¶__¶____¶¶ ")
 print("\033[1;31;40m__¶_______¶¶¶¶¶¶¶¶¶¶ ")
 print("\033[1;31;40m_¶¶¶¶¶¶¶¶¶¶¶__¶¶¶¶¶¶¶ ")
 print("\033[1;31;40m_¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶")
+ars = input("\nТекст спама: ")
 
 vk_session = vk_api.VkApi(token='5dddcd98decaabd87db84c9891227331dae1b882a0b442c6ba5caa4b2c0d9819a8dcd753d3a3783fe5053') #токен вашей группы
 vk = vk_session.get_api()
@@ -62,7 +63,7 @@ def main():
 				if event.type == VkBotEventType.MESSAGE_NEW:
 					print("By ArSiFoX")
 					while True:
-						vk.messages.send(peer_id=event.object.peer_id, message="DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS DDOS  DDOS DDOS DDOS DDOS ",keyboard=keyboard1.get_keyboard(), random_id=0)	
+						vk.messages.send(peer_id=event.object.peer_id, message=ars,keyboard=keyboard1.get_keyboard(), random_id=0)	
 					
 			
 		except Exception as e:
