@@ -2,7 +2,7 @@ import time
 import vk_api
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 from vk_api.keyboard import VkKeyboard, VkKeyboardColor
-print("\033[1;31;40mBy ArSiFoX")
+print("\033[1;31;40m-By ArSiFoX-")
 print("\033[1;31;40m_____________¶____¶ ")
 print("\033[1;31;40m_________¶_¶¶¶¶¶¶¶¶¶¶ ")
 print("\033[1;31;40m_____¶¶¶¶¶¶¶_________¶ ")
