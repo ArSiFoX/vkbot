@@ -1,3 +1,5 @@
+# -*- coding: latin-1 -*-
+import os, sys
 import time
 import vk_api
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
